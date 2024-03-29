@@ -1,1 +1,1 @@
-return { _crashWith = function(msg) error(msg) end }
+return {_crashWith = (function(msg) error(msg) end)}

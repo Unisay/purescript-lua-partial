@@ -1,1 +1,1 @@
-return { _unsafePartial = function(f) return f(); end }
+return {_unsafePartial = (function(f) return f(); end)}
